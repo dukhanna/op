@@ -1,0 +1,45 @@
+.main-menu{
+  display:inline-block;
+  list-style:none;
+}
+.main-li{
+ display:inline-block;
+ width:200px;
+ height:25px;
+ background:skyblue;
+border:1px solid black ;
+color:white;
+text-decoration:none;
+}
+.a:hover{
+background:black;
+color:yellow;
+}
+.inner-li{
+ 
+ width:200px;
+ height:25px;
+ background:skyblue;
+border:1px solid black ;
+color:white;
+text-decoration:none;
+}
+.inner-list{
+position:absolute;
+left:5px;
+top:55px;
+display:none;
+
+}
+.main-li:hover .inner-list{
+ display:block;
+}
+.img{
+width:1200px;
+height:850px;
+float:right;
+}
+.p{
+left:20px;
+right:500px;
+}
